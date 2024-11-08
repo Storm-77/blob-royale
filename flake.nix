@@ -15,7 +15,10 @@
             pkgs.nodejs 
             pkgs.nodePackages.typescript
             pkgs.nodePackages.npm
+            pkgs.nodePackages.watch-http-server
         ];
+        shellHook = ''
+        '';
 
 
       };
